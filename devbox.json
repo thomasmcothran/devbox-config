@@ -1,0 +1,39 @@
+{
+  "packages": [
+    "babashka@latest",
+    "clojure-lsp@latest",
+    "ripgrep@latest",
+    "fd@latest",
+    "luarocks@latest",
+    "xclip@latest",
+    "neovim@latest",
+    "nerdfonts@latest",
+    "bottom@latest",
+    "fzf@latest",
+    "direnv@latest",
+    "btop@latest",
+    "neofetch@latest",
+    "cheat@latest",
+    "clojure@latest",
+    "kitty@latest",
+    "nnn@latest",
+    "keepassxc@latest",
+    "dbeaver@latest",
+    "nodejs@latest",
+    "tree-sitter@latest",
+    "git@latest",
+    "firefox@latest",
+    "syncthing@latest",
+    "virt-manager@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
